@@ -1,0 +1,16 @@
+{
+    "editor.wordWrap" : "on",
+    "editor.fontFamily" : "Fira Code",
+    "editor.fontLigatures" : true,
+    "editor.fontSize": 13,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    }
+}

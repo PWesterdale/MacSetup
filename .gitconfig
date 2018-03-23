@@ -1,0 +1,25 @@
+[user]
+        name = Paul Westerdale
+        email = paul@westerdale.me
+[alias]
+    addr = noaddr
+    st = status
+    flg = !git fetch && git lg
+    lg = log --graph --decorate --branches --oneline --remotes --tags --all --color
+    ci = commit
+    co = checkout
+    cdiff = diff --cached
+    subup = submodule update --init --recursive
+    ff = merge --ff-only origin/master
+    fff = !git fetch -p && git merge --ff-only
+    show-all-the-things = manifest
+    yoink = cherry-pick
+    unstage = reset HEAD
+    authors = !git log --format='%aN' | sort | uniq -c | sort -nr
+    committers = !git log --format='%cN' | sort | uniq -c | sort -nr
+    whatis = rev-list --max-count 1
+    rebase = rebase -p
+[core]
+        excludesfile = ~/.gitignore
+[color]
+        ui = auto
